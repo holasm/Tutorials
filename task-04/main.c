@@ -9,6 +9,7 @@ char stack[THREAD_STACKSIZE_MAIN];
 
 void *thread_handler(void *arg)
 {
+    (void)arg;
     /* ... */
     return NULL;
 }
@@ -22,7 +23,8 @@ int main(void)
                                      THREAD_CREATE_STACKTEST,
                                      thread_handler, NULL,
                                      "thread");
-
+    printf("%d", thread_getstatus(pid));
+    thread_print_stack();
     char line_buf[SHELL_DEFAULT_BUFSIZE];
     shell_run(NULL, line_buf, SHELL_DEFAULT_BUFSIZE);
 

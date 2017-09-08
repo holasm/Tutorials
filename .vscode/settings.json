@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "assert.h": "c",
+        "stdio.h": "c",
+        "cdefs.h": "c",
+        "ps.h": "c",
+        "stdio2.h": "c",
+        "color.h": "c",
+        "random.h": "c",
+        "shell.h": "c",
+        "vectors_kinetis.h": "c",
+        "adxl345.h": "c",
+        "fib.h": "c",
+        "ieee802154.h": "c",
+        "kernel_types.h": "c",
+        "internal.h": "c",
+        "stdlib.h": "c",
+        "chrono": "c",
+        "array": "c",
+        "functional": "c",
+        "ratio": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c",
+        "initializer_list": "c"
+    }
+}
